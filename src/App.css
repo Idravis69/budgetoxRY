@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #F0FFC7;
 }
 
 .App-logo {
@@ -17,7 +18,6 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.Navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #BADD57;
+}
+
+.imageNav{
+  width: 100px ;
+}
+.imageNav2{
+  width: 60px ;
+}
+
+.Footer {
+  background-color: #BADD57;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: flex-end;
+  position:absolute;
+   bottom:0;  /* on le colle en bas */
+   width:100%;
+   height:100px; 
+}
+
+
