@@ -3,6 +3,10 @@
   background-color: #F0FFC7;
 }
 
+body{
+  background-color: #F0FFC7;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -58,9 +62,35 @@
   color: white;
   align-items: flex-end;
   position:absolute;
-   bottom:0;  /* on le colle en bas */
    width:100%;
    height:100px; 
 }
 
+.SP {
+  display: flex;
+  justify-content: space-around;
+}
 
+.Soldes {
+  background-color: #BADD57;
+  border-radius: 5px;
+  font-size: large;
+}
+
+.Plafond {
+  background-color: #BADD57;
+  border-radius: 5px;
+  font-size: large;
+}
+
+.Depenses {
+  background-color: #BADD57;
+  border-radius: 5px;
+  font-size: large;
+}
+
+.connexion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -6,7 +6,7 @@ function Footer() {
                 <div class="row d-flex justify-content-center">
                     <div class="col-md-8 col-sm-6 col-xs-12">
                         <p class="">Copyright &copy; 2017 All Rights Reserved by
-                            <a href="#"> Idravis and Younouss</a>.
+                            <a> Idravis, Ryad and Younouss</a>.
                         </p>
                     </div>
                 </div>
